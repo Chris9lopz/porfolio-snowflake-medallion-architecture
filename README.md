@@ -180,6 +180,35 @@ Data ingestion into the **Bronze layer** includes:
 
 ---
 
+## 📊 Business Intelligence Consumption (Power BI)
+
+The final objective of this data pipeline is to enable efficient and scalable data consumption for **business intelligence reporting in Power BI**.
+
+### 🎯 Purpose
+
+* Provide **clean, curated, and business-ready datasets** from the Gold layer
+* Support **interactive dashboards and analytical reports**
+* Ensure **data consistency and reliability** for decision-making
+
+### 🔗 Integration with Power BI
+
+* The **Gold layer tables** are designed as the primary data source for Power BI
+* Optimized schemas improve query performance and reduce latency
+* Data models can be directly connected via:
+
+  * Snowflake connector in Power BI
+  * Import or DirectQuery mode depending on use case
+
+### 📈 Expected Outcomes
+
+* Creation of **dynamic dashboards** for business insights
+* Monitoring of **KPIs and performance metrics**
+* Empowering stakeholders with **self-service analytics**
+
+This integration ensures that the data engineering pipeline not only processes data efficiently but also delivers tangible value through actionable insights in Power BI.
+
+---
+
 ## 🌟 Key Features
 
 * 📈 Scalable cloud-native architecture
